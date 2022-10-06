@@ -20,3 +20,18 @@ pizza_and_prices = [
   [7, "anchovies"],
   [2, "mushrooms"]
 ]
+#Sorting list
+pizza_and_prices.sort()
+#Getting first list item
+cheapest_pizza = pizza_and_prices[1]
+#Getting last list item and saving it 
+priciest_pizza = pizza_and_prices[-1]
+#Removing last list item
+pizza_and_prices.pop(-1)
+#Inserting new item in 2. spot of list 
+pizza_and_prices.insert(2, [2.5, "peppers"])
+#Sorting list again because we Removed one item and added a new one
+pizza_and_prices.sort()
+#Printing the 3 Cheapest pizzas
+three_cheapest = pizza_and_prices[0:3]
+print(three_cheapest)
